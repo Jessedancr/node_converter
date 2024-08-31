@@ -1,0 +1,79 @@
+body {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	background-color: beige;
+}
+
+.login_username,
+.login_password,
+.signup_username,
+.signup_password {
+	padding: 10px;
+}
+
+.on_sign_up{
+	background-color: burlywood;
+	height: 30%;
+	border-radius: 20px;
+	padding: 20px;
+}
+.converter,
+.login_form,
+.signup_form {
+	background-color: burlywood;
+	height: 55%;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.history {
+	background-color: burlywood;
+	height: 100vh;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+
+
+.history_content {
+	background-color: #f5deb3;
+	border-radius: 20px;
+	padding: 7px;
+	margin: 10px;
+	flex: 1;
+	overflow-y: auto;
+}
+
+.textfield {
+	height: 20px;
+	font-size: medium;
+	border-radius: 7px;
+	outline-color: darkkhaki;
+}
+
+.convert button,
+.signup_password button,
+.login_password button {
+	width: 100%;
+	margin-top: 30px;
+	background-color: #d2b48c;
+	border-radius: 20px;
+	height: 30px;
+}
+.button:hover {
+	background-color: #f5deb3;
+}
+
+.dropdown {
+	margin: 10px;
+}
+
+.convert {
+	margin: 10px;
+}
